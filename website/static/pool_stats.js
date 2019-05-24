@@ -17,8 +17,8 @@ function displayCharts() {
           }
         }),
         borderWidth: 2,
-        backgroundColor: '#348EA9',
-        borderColor: '#348EA9'
+        backgroundColor: '#3440a9',
+        borderColor: '#3440a9'
       },
       {
         label: 'Averaged',
