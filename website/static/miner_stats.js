@@ -47,7 +47,7 @@ function displayCharts() {
 	  },
 	  title: "Shares This Round",
 	  gaugeWidthScale: 0.6,
-	  levelColors:["#e8e84c", "#6cdb5e"]
+	  levelColors:["#e8e84c", "#6679c2"]
 	});
 	invalidGage = new JustGage({
 	  id: "validShare",
@@ -87,7 +87,7 @@ function displayCharts() {
 	  },
 	  title: "Worker Dominance",
 	  gaugeWidthScale: 0.6,
-	  levelColors:["#e8e84c", "#6cdb5e"]
+	  levelColors:["#e8e84c", "#4c64a4"]
 	});
 	var high = 0;
 	console.log(stats.hashrate);
@@ -98,7 +98,7 @@ function displayCharts() {
 	  max: 100,
 	  symbol: '%',
 	  title: "Hashrate Dominance",
-	  levelColors:["#e8e84c", "#6cdb5e"],
+	  levelColors:["#e8e84c", "#4c64a4"],
 	  pointer: true,
 	  pointerOptions: {
 	    toplength: -15,
